@@ -1,3 +1,5 @@
+// program calculating costs for a carpet cleaning service
+
 #include <iostream>
 
 using namespace std;
@@ -30,7 +32,7 @@ int main() {
     cout << "Cost: " << large_room_price * large_rooms + small_room_price * small_rooms << endl;
     cout << "Tax: $" << (large_room_price * large_rooms + small_room_price * small_rooms) * sales_tax << endl;
     cout << "################################################";
-    
+
     cout << "Total estimate: $" << large_room_price * large_rooms + small_room_price * small_rooms +
      (large_room_price * large_rooms + small_room_price * small_rooms) * sales_tax << endl;
     cout << "this estimate is valid for the next " << expiry << " days." << endl;
